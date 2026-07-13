@@ -1,0 +1,46 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'RoutinePlannerPro'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not download builder-8.2.0.jar (com.android.tools.build:builder:8.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/8.2.0/builder-8.2.0.jar'.
+         > No space left on device
+   > Could not download sdklib-31.2.0.jar (com.android.tools:sdklib:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/31.2.0/sdklib-31.2.0.jar'.
+         > No space left on device
+   > Could not download repository-31.2.0.jar (com.android.tools:repository:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/repository/31.2.0/repository-31.2.0.jar'.
+         > No space left on device
+   > Could not download aaptcompiler-8.2.0.jar (com.android.tools.build:aaptcompiler:8.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/8.2.0/aaptcompiler-8.2.0.jar'.
+         > No space left on device
+   > Could not download tracker-31.2.0.jar (com.android.tools.analytics-library:tracker:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/31.2.0/tracker-31.2.0.jar'.
+         > No space left on device
+   > Could not download shared-31.2.0.jar (com.android.tools.analytics-library:shared:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/31.2.0/shared-31.2.0.jar'.
+         > No space left on device
+   > Could not download android-test-plugin-host-emulator-control-proto-31.2.0.jar (com.android.tools.utp:android-test-plugin-host-emulator-control-proto:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-emulator-control-proto/31.2.0/android-test-plugin-host-emulator-control-proto-31.2.0.jar'.
+         > No space left on device
+   > Could not download android-test-plugin-host-retention-proto-31.2.0.jar (com.android.tools.utp:android-test-plugin-host-retention-proto:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/31.2.0/android-test-plugin-host-retention-proto-31.2.0.jar'.
+         > No space left on device
+   > Could not download builder-model-8.2.0.jar (com.android.tools.build:builder-model:8.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/8.2.0/builder-model-8.2.0.jar'.
+         > No space left on device
+   > Could not download gradle-api-8.2.0.jar (com.android.tools.build:gradle-api:8.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/8.2.0/gradle-api-8.2.0.jar'.
+         > No space left on device
+   > Could not download builder-test-api-8.2.0.jar (com.android.tools.build:builder-test-api:8.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/8.2.0/builder-test-api-8.2.0.jar'.
+         > No space left on device
+   > Could not download ddmlib-31.2.0.jar (com.android.tools.ddms:ddmlib:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/31.2.0/ddmlib-31.2.0.jar'.
+         > No space left on device
+   > Could not download layoutlib-api-31.2.0.jar (com.android.tools.layoutlib:layoutlib-api:31.2.0)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/31.2.0/layoutlib-api-31.
